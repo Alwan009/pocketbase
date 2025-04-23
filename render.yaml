@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: pocketbase
+    env: docker
+    plan: free
+    repo: https://github.com/YOUR_USERNAME/tourism-pocketbase
+    branch: main
+    dockerfilePath: Dockerfile
+    autoDeploy: true
+    envVars: []
